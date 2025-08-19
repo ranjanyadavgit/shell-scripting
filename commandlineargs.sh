@@ -17,3 +17,18 @@ raj
 28
 hi my name is, ranjan age is 23
 root@ubuntuvm:~# 
+
+-----------------------------------------------------------------------------
+#!/bin/bash
+
+name=${1}
+age=${2}
+
+echo "my name is $name and age is $age"
+
+o/p - > ./comandlineargs ranjan 26
+./commandlineargs
+ranjan
+26
+hi my name is ranjan age is 26
+
