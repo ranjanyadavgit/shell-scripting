@@ -24,6 +24,20 @@ echo "i am here"
 
 
 ranjan@ubuntuvm:~$ ./if-variable-not-set.sh 
+
+i am here
+ranjan@ubuntuvm:~$ 
+------------------------------------
+
+ranjan@ubuntuvm:~$ cat if-variable-not-set.sh 
+#!/bin/bash
+
+#name="ranjan"
+: ${1:? "please set value here"}
+
+echo "i am here"
+
+ranjan@ubuntuvm:~$ ./if-variable-not-set.sh ranjan
 i am here
 ranjan@ubuntuvm:~$ 
 
