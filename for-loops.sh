@@ -2,7 +2,7 @@
 
 read -p "enter a number" number
 
-for Variable in {1...10}
+for Variable in {1..10}
 do
 echo $((Variable*number))
 done
